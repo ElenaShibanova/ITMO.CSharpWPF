@@ -1,0 +1,41 @@
+﻿<Window x:Name="SharePrices" x:Class="ITMO.CSharpWPF.DataBase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITMO.CSharpWPF.DataBase"
+        mc:Ignorable="d"
+        Title="Стоимость акций" Height="450" Width="800">
+    <Grid Margin="0,0,2,1">
+        <Button x:Name="ShowSharePrices" Content="Показать стоимость акций" HorizontalAlignment="Left" Margin="48,59,0,0" VerticalAlignment="Top" Width="178" Height="37" Click="ShowSharePrices_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.064"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="InsertPrice" Content="Добавить новую стоимость" HorizontalAlignment="Left" Margin="48,291,0,0" VerticalAlignment="Top" Width="179" Height="33" Click="InsertPrice_Click"/>
+        <ListBox x:Name="ShareIDPriceDateBox" HorizontalAlignment="Left" Height="197" Margin="260,59,0,0" VerticalAlignment="Top" Width="412"/>
+        <TextBox x:Name="InsIDBox" HorizontalAlignment="Left" Height="33" Margin="260,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="52"/>
+        <Button x:Name="DeleteShare" Content="Удалить акцию" HorizontalAlignment="Left" Margin="48,362,0,0" VerticalAlignment="Top" Width="179" Height="34" Click="DeleteShare_Click"/>
+        <TextBox x:Name="InsIDDelShareBox" HorizontalAlignment="Left" Height="34" Margin="260,362,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="InsPriceBox" HorizontalAlignment="Left" Height="33" Margin="468,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Ведите ID акции" HorizontalAlignment="Left" Margin="319,285,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.183"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Введите стоимость акции " HorizontalAlignment="Left" Margin="595,291,0,0" VerticalAlignment="Top" Height="41" Width="168"/>
+        <Label Content="Введите ID акции" HorizontalAlignment="Left" Margin="344,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.396,0.096" Width="142"/>
+        <Label Content="(Диапазон от 1 до 5)" HorizontalAlignment="Left" Margin="317,306,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.024,-0.25"/>
+
+    </Grid>
+</Window>
