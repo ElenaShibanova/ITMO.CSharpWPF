@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelloNav", "WpfHelloNav\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSharpWPF.DataBase", "ITMO.CSharpWPF.DataBase\ITMO.CSharpWPF.DataBase.csproj", "{3B60F6C2-16FD-4FE5-9C97-210F3BC6406F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_1", "WpfRoutedEvent_2_1\WpfRoutedEvent_2_1.csproj", "{D0683BED-7D64-4CC7-BF09-A028A28CEBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_2", "WpfRoutedEvent_2_2\WpfRoutedEvent_2_2.csproj", "{21049DBD-3684-4CE8-A475-B44CD7D95C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3B60F6C2-16FD-4FE5-9C97-210F3BC6406F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B60F6C2-16FD-4FE5-9C97-210F3BC6406F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B60F6C2-16FD-4FE5-9C97-210F3BC6406F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0683BED-7D64-4CC7-BF09-A028A28CEBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0683BED-7D64-4CC7-BF09-A028A28CEBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0683BED-7D64-4CC7-BF09-A028A28CEBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0683BED-7D64-4CC7-BF09-A028A28CEBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21049DBD-3684-4CE8-A475-B44CD7D95C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21049DBD-3684-4CE8-A475-B44CD7D95C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21049DBD-3684-4CE8-A475-B44CD7D95C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21049DBD-3684-4CE8-A475-B44CD7D95C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
