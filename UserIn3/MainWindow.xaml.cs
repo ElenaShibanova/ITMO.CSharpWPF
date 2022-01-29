@@ -50,7 +50,7 @@ namespace UserIn3
 
         private void listBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty, ((ListBoxItem)listBox1.SelectedItem).FontFamily);
+            richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty, listBox1.SelectedItem);
         }
     }
 }
